@@ -196,23 +196,47 @@
     (?) Ctrl+Alt+/ to run code\n\
   --> \n\n\
   <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
-    <div class="margin-8 width-auto height-auto flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg shadow-dreamy-lg overflow-hidden">\n\
-      <img class="stack-1 (md)width-full (sm)width-64 height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1000">\n\
-      <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-2 (child-1)text-xl-4 (child-2)text-sm text-tint-onyx-1 font-bold">\n\
-        <p class="depth-tight-2">\n\
+    <div class="text-xs text-white">\n\
+      Welcome to WEAVV CSS Demo\n\
+    </div>\n\
+    <div class="(group) margin-8 width-auto height-auto flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
+      <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1000">\n\
+      <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-2 (child-1)text-xl-4 (child-2)text-sm text-tint-onyx-1 font-bold ">\n\
+        <p class="(group-hover)text-tint-teal-1 depth-tight-2 transition duration-300 linear">\n\
           Lorem ipsum dolor sit amet\n\
         </p>\n\
         <p>\n\
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus sodales efficitur. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
         </p>\n\
       </div>\n\
-    </div>\n\n\
-    <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
-        Image taken from \n\
-        <a class="text-underline text-uppercase" href="https://www.pexels.com/photo/photography-of-roadway-during-dusk-1034662/">\n\
-          pexels\n\
-        </a>\n\
+    </div>\n\
+    <div class="flex flex-center flex-gap-2 select-none">\n\
+      <div class="relative width-12 height-12 text-xs bg-white curve-border-lg shadow-lg">\n\
+        <div class="absolute top-4 left-1 transform -rotate-45 text-tint-onyx-2 shadow-dreamy-lg">\n\
+          Credits\n\
+        </div>\n\
       </div>\n\
+      <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
+        <div>\n\
+          Image taken from \n\
+          <a class="text-underline text-uppercase" href="https://www.pexels.com/photo/photography-of-roadway-during-dusk-1034662/" target="_blank">\n\
+            pexels\n\
+          </a>\n\
+        </div>\n\
+        <div>\n\
+          Code editor ~\n\
+          <a class="text-underline text-uppercase" href="https://microsoft.github.io/monaco-editor/" target="_blank">\n\
+            Monaco Editor\n\
+          </a>\n\
+        </div>\n\
+        <div>\n\
+          Framework written with\n\
+          <a class="text-underline text-uppercase" href="https://sass-lang.com/" target="_blank">\n\
+            Sass-Lang\n\
+          </a>\n\
+        </div>\n\
+      </div>\n\
+    </div>\n\
   </body>',
         jsCodes: "",
         cssCodes: "",
