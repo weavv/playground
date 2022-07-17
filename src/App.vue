@@ -15,15 +15,16 @@
   let html = '<!-- \n\
   Welcome to WEAVV CSS Playground!\n\
   (?) F1 for Command Palette\n\
-  (?) Right-Click for more options\n\
+  (?) RightClick for more options\n\
+  (?) Shift+Alt+LeftClick for multi-selection\n\
   (?) Ctrl+Alt+/ to run code\n\
 --> \n\n\
   <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
-    <div class="text-xs text-white">\n\
+    <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
       Welcome to WEAVV CSS Demo\n\
     </div>\n\
-    <div class="(group) margin-8 width-auto height-auto flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
-      <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1000">\n\
+    <div class="(group) relative margin-8 (md)max-width-screen-sm flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
+      <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 (md)height-64 (sm)height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=640">\n\
       <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-2 (child-1)text-xl-4 (child-2)text-sm text-tint-onyx-1 font-bold ">\n\
         <p class="(group-hover)text-tint-teal-1 depth-tight-2 transition duration-300 linear">\n\
           Lorem ipsum dolor sit amet\n\
@@ -31,6 +32,29 @@
         <p>\n\
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus sodales efficitur. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
         </p>\n\
+      </div>\n\
+      <div class="absolute top-2 right-2">\n\
+        <div class="text-lg transform (group-hover)translate-x-24 transition duration-100 linear">\n\
+          Hover Me\n\
+        </div>\n\
+      </div>\n\
+      <div class="absolute bottom-0 left-2 right-2 flex flex-center">\n\
+        <div class="-margin-b-16 height-12 transform (group-hover)-translate-y-16 (expand)width-10 (expand)height-10 (expand)curve-border-full flex justify-around items-center width-full (group-hover)bg-shade-onyx-1 curve-border-full transition duration-300 linear shadow-dreamy">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?1">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?2">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?3">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?4">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?5">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?6">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?7">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?8">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?9">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?10">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?11">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?12">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?13">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?14">\n\
+        </div>\n\
       </div>\n\
     </div>\n\
     <div class="flex flex-center flex-gap-2 select-none">\n\
@@ -102,14 +126,14 @@
     // main menu bar theme is set
   } else {
     localStorage.dataMenuBarThemeEnabled = "true";
-    localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white";
+    localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white shadow-md";
   }
 
   if (localStorage.dataLogoThemeEnabled === "true") {
     // main logo theme is set
   } else {
     localStorage.dataLogoThemeEnabled = "true";
-    localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current text-gray-7 object-fit object-center overflow-hidden";
+    localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current object-fit object-center overflow-hidden";
   }
 
   if (localStorage.dataBgLogoThemeEnabled === "true") {
@@ -124,7 +148,7 @@
     // main buttons is set
   } else {
     localStorage.dataMainButtonThemeEnabled = "true";
-    localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 text-gray-7 (group-hover)text-gray-8 bg-transparent (active)bg-gray-3 curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
+    localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 bg-transparent curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
   }
 
   if (localStorage.dataMainButtonIconThemeEnabled === "true") {

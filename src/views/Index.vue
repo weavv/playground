@@ -192,15 +192,16 @@
         htmlCodes: '<!-- \n\
     Welcome to WEAVV CSS Playground!\n\
     (?) F1 for Command Palette\n\
-    (?) Right-Click for more options\n\
+    (?) RightClick for more options\n\
+    (?) Shift+Alt+LeftClick for multi-selection\n\
     (?) Ctrl+Alt+/ to run code\n\
   --> \n\n\
   <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
-    <div class="text-xs text-white">\n\
+    <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
       Welcome to WEAVV CSS Demo\n\
     </div>\n\
-    <div class="(group) margin-8 width-auto height-auto flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
-      <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1000">\n\
+    <div class="(group) relative margin-8 (md)max-width-screen-sm flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
+      <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 (md)height-64 (sm)height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=640">\n\
       <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-2 (child-1)text-xl-4 (child-2)text-sm text-tint-onyx-1 font-bold ">\n\
         <p class="(group-hover)text-tint-teal-1 depth-tight-2 transition duration-300 linear">\n\
           Lorem ipsum dolor sit amet\n\
@@ -208,6 +209,29 @@
         <p>\n\
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus sodales efficitur. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
         </p>\n\
+      </div>\n\
+      <div class="absolute top-2 right-2">\n\
+        <div class="text-lg transform (group-hover)translate-x-24 transition duration-100 linear">\n\
+          Hover Me\n\
+        </div>\n\
+      </div>\n\
+      <div class="absolute bottom-0 left-2 right-2 flex flex-center">\n\
+        <div class="-margin-b-16 height-12 transform (group-hover)-translate-y-16 (expand)width-10 (expand)height-10 (expand)curve-border-full flex justify-around items-center width-full (group-hover)bg-shade-onyx-1 curve-border-full transition duration-300 linear shadow-dreamy">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?1">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?2">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?3">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?4">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?5">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?6">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?7">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?8">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?9">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?10">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?11">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?12">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?13">\n\
+          <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear" src="https://i.pravatar.cc/50?14">\n\
+        </div>\n\
       </div>\n\
     </div>\n\
     <div class="flex flex-center flex-gap-2 select-none">\n\
@@ -391,9 +415,9 @@
           localStorage.dataLogoTheme = "invert-1 opacity-75 height-8 width-auto object-fit object-center overflow-hidden";
           localStorage.dataDocButtonTheme = "";
           // localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm text-tint-onyx-1 (hover)text-shade-onyx-1 bg-transparent (active)bg-tint-onyx-1 border border-tint-onyx-4 (hover)border-tint-onyx-1 (focus)border-tint-onyx-1 curve-border transition duration-300 ease-in-out";
-          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-charcoal-1";
+          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-charcoal-1 shadow-md";
           localStorage.dataButtonTheme = "invert-1 opacity-50 transform (hover)scale-125 width-5 height-5 transition duration-300 ease-in-out transform (group-hover)scale-125";
-          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 text-gray-4 (hover)text-gray-3 bg-transparent (active)bg-gray-7 curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
+          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 bg-transparent curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
           localStorage.dataMainButtonIconTheme = "invert-1 opacity-50 (group-hover)opacity-75 (group-hover)invert-1 width-6 height-6 object-fit object-center transition duration-300 ease-in-out transform (group-hover)scale-125";
           localStorage.dataBgTheme = "relative flex flex-row";
           localStorage.dataPreloaderTheme = "stack-5 absolute top-16 right-6 width-5 height-5 preloader dark animation fade-in duration-300";
@@ -402,11 +426,11 @@
         } else if (localStorage.dataTheme === "vs-dark") { // dark
           localStorage.dataTheme = "vs";
           localStorage.dataBgLogoTheme = "invert-0 height-auto width-32 object-cover object-center overflow-hidden opacity-75 select-none";
-          localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current text-gray-7 object-fit object-center overflow-hidden";
-          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white";
-          localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm text-gray-6 (hover)text-gray-8 (active)bg-gray-3 border border-gray-3 (hover)border-gray-5 curve-border transition duration-300 ease-in-out";
+          localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current object-fit object-center overflow-hidden";
+          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white shadow-md";
+          localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm curve-border transition duration-300 ease-in-out";
           localStorage.dataButtonTheme = "opacity-50 text-gray-2 transform (hover)scale-125 width-5 height-5 transition duration-300 ease-in-out transform (group-hover)scale-125";
-          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 text-gray-7 (group-hover)text-gray-8 bg-transparent (active)bg-gray-3 curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
+          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 bg-transparent curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
           localStorage.dataMainButtonIconTheme = "invert-0 opacity-50 (group-hover)opacity-75 (group-hover)invert-0 width-6 height-6 object-fit object-center transition duration-300 ease-in-out transform (group-hover)scale-125";
           localStorage.dataBgTheme = "relative flex flex-row";
           localStorage.dataPreloaderTheme = "stack-5 absolute top-16 right-6 width-5 height-5 preloader dark animation fade-in duration-300";
