@@ -21,32 +21,34 @@
 --> \n\n\
   <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
     <div class="(group) relative flex flex-column flex-center">\n\
-      <div class="text-lg text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4 transform (group-hover)translate-y-16 transition duration-300 linear">\n\
+      <div class="text-lg text-white text-offset-shadow-- offset-x-2 offset-y-2 offset-blur-4 transform (group-hover)translate-y-16 transition duration-300 linear">\n\
         Welcome to WEAVV CSS Demo\n\
       </div>\n\
       <div class="absolute top-20 transform (group-hover)-translate-y-32 transition duration-100 linear flex justify-center items-center">\n\
         <img class="width-32 height-32 object-cover object-center curve-border-full filter brightness-4 saturate-2" src="https://i.pravatar.cc/400?15">\n\
-        <div class="padding-x-4 text-xl-2 text-shade-onyx-1 font-bold">\n\
+        <a class="padding-x-4 text-xl-2 text-white font-bold (hover)text-underline" href="#">\n\
           John Doe\n\
-        </div>\n\
+        </a>\n\
       </div>\n\
       <div class="stack-1 relative margin-8 (md)max-width-screen-sm flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
-        <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 (md)height-64 (sm)height-88 object-cover object-center bg-tint-onyx-3 bg-tint-onyx-5 filter brightness-4 saturate-2" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=640">\n\
-        <div class="(md)padding-10 (sm)padding-6 (child-1)padding-t-2 (child-2)padding-t-2 (child-3)padding-t-4 (child-1)text-xl-5 (child-2)text-xl-5 (child-3)text-sm text-tint-onyx-1 font-bold ">\n\
-          <p class="(group-hover)hidden depth-tight-2 transition duration-300 linear">\n\
-            Absolute <br> Silent\n\
-          </p>\n\
-          <p class="hidden (group-hover)block text-tint-teal-1 depth-tight-2 transition duration-300 linear">\n\
-            Absolute <br> <span class="(group-hover)text-underline">Noisy</span>\n\
-          </p>\n\
-          <p>\n\
+        <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 (md)height-40 (sm)height-88 object-cover object-center bg-tint-onyx-3 bg-tint-onyx-5 filter brightness-4 saturate-2" srcset="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=300 300w, https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=640 600w" sizes="70vmin">\n\
+        <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-4 (child-2)text-sm text-tint-onyx-1 font-bold flex flex-gap-8 (md)flex-row (sm)flex-column justify-center items-start transform (group-hover)-translate-y-6 transition duration-300 linear">\n\
+          <div class="(child-1)padding-t-2 (child-2)padding-t-2 (child-1)text-xl-5 (child-2)text-xl-5">\n\
+            <p class="(group-hover)hidden depth-tight-2 transition duration-300 linear (md)text-right">\n\
+              Absolute <br> Silent\n\
+            </p>\n\
+            <p class="hidden (group-hover)block text-tint-teal-1 depth-tight-2 transition duration-300 linear (md)text-right">\n\
+              Absolute <br> <span class="(group-hover)text-underline">Noisy</span>\n\
+            </p>\n\
+          </div>\n\
+          <p class="block">\n\
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus <span class="text-underline line-thickness-3 line-offset-1">sodales efficitur</span>. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
           </p>\n\
         </div>\n\
         <div class="absolute top-2 right-0">\n\
           <div class="text-lg text-right -margin-r-6 transform (group-hover)-translate-x-8 transition duration-100 linear">\n\
             <a class="(hover)opacity-50" href="#">\n\
-              <img class="width-6 height-6 (hover)width-10 (hover)height-10 transition duration-300 linear" src="https://cdn-icons.flaticon.com/png/512/2030/premium/2030957.png?token=exp=1658062517~hmac=6497a9d16133e65dc2fee456e4f21f93">\n\
+              <img class="width-6 height-6 (hover)width-10 (hover)height-10 transition duration-300 linear" src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128313.png?token=exp=1658149910~hmac=030bb9ab4c078b031821d378d718d8c3">\n\
             </a>\n\
           </div>\n\
         </div>\n\
@@ -73,11 +75,11 @@
         <div class="padding-y-2 font-lato text-xs text-shade-onyx-1">\n\
           Arkworks &copy; John Doe\n\
         </div>\n\
-        <div class="flex flex-gap-2 cursor-pointer">\n\
-          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-300 linear (hover)opacity-75 filter brightness-2 saturate-2" src="https://images.pexels.com/photos/814830/pexels-photo-814830.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
-          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-300 linear (hover)opacity-75" src="https://images.pexels.com/photos/1742927/pexels-photo-1742927.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
-          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-300 linear (hover)opacity-75" src="https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
-          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-300 linear (hover)opacity-75" src="https://images.pexels.com/photos/2537609/pexels-photo-2537609.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+        <div class="transform-perspective-500 flex flex-gap-2 cursor-pointer">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)rotate-y-39 transition duration-200 linear (hover)opacity-75 filter brightness-2 saturate-2" src="https://images.pexels.com/photos/814830/pexels-photo-814830.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/1742927/pexels-photo-1742927.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-rotate-y-39 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/2537609/pexels-photo-2537609.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
         </div>\n\
       </div>\n\
       <div class="flex flex-center flex-gap-2 select-none transform (group-hover)-translate-y-24 transition duration-100 linear">\n\
@@ -88,7 +90,7 @@
         </div>\n\
         <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
           <div>\n\
-            Image taken from \n\
+            Image taken from\n\
             <a class="text-underline text-uppercase" href="https://www.pexels.com/photo/photography-of-roadway-during-dusk-1034662/" target="_blank">\n\
               pexels \n\
             </a>\n\
@@ -100,7 +102,7 @@
             </a>\n\
           </div>\n\
           <div>\n\
-            Framework written with \n\
+            Framework written with\n\
             <a class="text-underline text-uppercase" href="https://sass-lang.com/" target="_blank">\n\
               Sass-Lang \n\
             </a>\n\
