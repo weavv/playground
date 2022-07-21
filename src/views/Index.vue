@@ -54,14 +54,7 @@
           <div class="flex justify-center items-center select-none">
             <!-- logo -->
             <div class="padding-x-2 animation roll-in-left duration-800">
-              <svg v-bind:class="logoTheme" width="200.17mm" height="184.41mm" version="1.1" viewBox="0 0 200.17 184.41" xmlns="http://www.w3.org/2000/svg">
-              <g transform="translate(379.78 -21.748)">
-                <path transform="matrix(.69746 -.71663 .69746 .71663 0 0)" d="m-307.54-174.07h69.877c18.439 0 33.283 14.844 33.283 33.283v73.813c0 18.439-14.844 33.283-33.283 33.283h-69.877c-18.439 0-33.283-14.844-33.283-33.283v-73.813c0-18.439 14.844-33.283 33.283-33.283z" fill="#0cf" stroke-width=".50337"/>
-                <path d="m-318.07 110.62h45.2c5.7032 0 10.295 4.5914 10.295 10.295 0 5.7032-4.5914 10.295-10.295 10.295h-45.2c-5.7032 0-10.295-4.5914-10.295-10.295 0-5.7032 4.5914-10.295 10.295-10.295z" fill="#fff" stroke-width=".83952" style="font-variation-settings:'wght' 300"/>
-                <path transform="matrix(.69746 -.71663 .69746 .71663 0 0)" d="m-322.37-202.78h69.877c18.439 0 33.283 14.844 33.283 33.283v73.813c0 18.439-14.844 33.283-33.283 33.283h-69.877c-18.439 0-33.283-14.844-33.283-33.283v-73.813c0-18.439 14.844-33.283 33.283-33.283z" fill="none" stroke="#4d4d4d" stroke-width="7.8962"/>
-                <path d="m-350.58 102.42h48.71c4.7308 0 8.5394 3.8086 8.5394 8.5394 0 4.7309-3.8086 8.5394-8.5394 8.5394h-48.71c-4.7308 0-8.5394-3.8086-8.5394-8.5394 0-4.7308 3.8086-8.5394 8.5394-8.5394z" fill="none" stroke="#4d4d4d" stroke-width="7.8947" style="font-variation-settings:'wght' 300"/>
-                </g>
-              </svg>
+              <svg v-bind:class="logoTheme" xmlns="http://www.w3.org/2000/svg" width="677.31" height="623.713" viewBox="0 0 179.205 165.024" xmlns:v="https://vecta.io/nano"><path d="M39.333 66.122L82.95 21.307c11.509-11.826 30.041-11.826 41.55 0l46.073 47.34c11.509 11.826 11.509 30.866 0 42.692l-43.617 44.816c-11.509 11.826-30.041 11.826-41.55 0l-46.073-47.34c-11.509-11.826-11.509-30.866 0-42.692z" fill="#0cf"/><path d="M55.29 79.516h40.452c5.104 0 9.213 4.109 9.213 9.213s-4.109 9.213-9.213 9.213H55.29c-5.104 0-9.213-4.109-9.213-9.213s4.109-9.213 9.213-9.213z" fill="#fff"/><g fill="none" stroke="#4d4d4d" stroke-width="7.065"><path d="M76.547 3.532c-7.51 0-15.02 2.957-20.775 8.869L12.155 57.217C.646 69.042.646 88.083 12.155 99.909l46.073 47.339c11.509 11.826 30.041 11.826 41.55 0l18.313-18.817-.004-9.007.187-23.93c.974-4.109 5.186-6.533 9.043-5.206.393.135 8.314 4.637 17.854 10.14 9.691-11.884 9.103-29.508-1.777-40.688l-46.073-47.34c-5.755-5.913-13.265-8.869-20.775-8.869z"/><path d="M26.202 72.182h43.594c4.234 0 7.642 3.409 7.642 7.642s-3.409 7.642-7.642 7.642H26.202c-4.234 0-7.642-3.409-7.642-7.642s3.409-7.642 7.642-7.642z"/></g><path d="M131.164 151.129c-1.429-.326-2.968-1.519-3.66-2.838-.689-1.312-.65-.102-.65-20.374l.149-19.024c.774-3.267 4.123-5.194 7.19-4.139.33.113 7.261 4.054 15.404 8.758 15.866 9.165 15.677 9.046 16.44 10.317.684 1.139.885 1.859.894 3.199.006.995-.034 1.321-.232 1.895-.469 1.356-1.288 2.445-2.426 3.222-.316.216-7.043 4.478-14.948 9.472l-15.052 9.327a6.28 6.28 0 0 1-3.108.184z" fill="#4d4d4d"/></svg>
             </div>
             <!-- docs -->
             <!-- <div class="animation roll-in-left duration-800">
@@ -192,27 +185,101 @@
         htmlCodes: '<!-- \n\
     Welcome to WEAVV CSS Playground!\n\
     (?) F1 for Command Palette\n\
-    (?) Right-Click for more options\n\
+    (?) RightClick for more options\n\
+    (?) Shift+Alt+LeftClick for multi-selection\n\
     (?) Ctrl+Alt+/ to run code\n\
   --> \n\n\
   <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
-    <div class="margin-8 width-auto height-auto flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg shadow-dreamy-lg overflow-hidden">\n\
-      <img class="stack-1 (md)width-full (sm)width-64 height-88 object-cover object-center bg-tint-onyx-3" src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1000">\n\
-      <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-2 (child-1)text-xl-4 (child-2)text-sm text-tint-onyx-1 font-bold">\n\
-        <p class="depth-tight-2">\n\
-          Lorem ipsum dolor sit amet\n\
-        </p>\n\
-        <p>\n\
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus sodales efficitur. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
-        </p>\n\
+    <div class="(group) relative flex flex-column flex-center">\n\
+      <div class="text-lg text-white text-offset-shadow-- offset-x-2 offset-y-2 offset-blur-4 transform (group-hover)translate-y-16 transition duration-300 linear">\n\
+        Welcome to WEAVV CSS Demo\n\
       </div>\n\
-    </div>\n\n\
-    <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
-        Image taken from \n\
-        <a class="text-underline text-uppercase" href="https://www.pexels.com/photo/photography-of-roadway-during-dusk-1034662/">\n\
-          pexels\n\
+      <div class="absolute top-20 transform (group-hover)-translate-y-32 transition duration-100 linear flex justify-center items-center">\n\
+        <img class="width-32 height-32 object-cover object-center curve-border-full filter brightness-4 saturate-2" src="https://i.pravatar.cc/250?15">\n\
+        <a class="padding-x-4 text-xl-2 text-white font-bold (hover)text-underline" href="#">\n\
+          John Doe\n\
         </a>\n\
       </div>\n\
+      <div class="stack-1 relative margin-8 (md)max-width-screen-sm flex (sm)flex-row (md)flex-column (md)justify-center (sm)justify-between items-center bg-white curve-border-lg (hover)shadow-dreamy-lg transition duration-300 linear overflow-hidden cursor-pointer">\n\
+        <img class="transform (group-hover)scale-105 duration-300 (md)width-full (sm)width-64 (md)height-40 (sm)height-88 object-cover object-center bg-tint-onyx-3 bg-tint-onyx-5 filter brightness-4 saturate-2" srcset="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=300 300w, https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=640 600w" sizes="70vmin">\n\
+        <div class="(md)padding-10 (sm)padding-6 (child-2)padding-t-4 (child-2)text-sm text-tint-onyx-1 font-bold flex flex-gap-8 (md)flex-row (sm)flex-column justify-center items-start transform (group-hover)-translate-y-6 transition duration-300 linear">\n\
+          <div class="(child-1)padding-t-2 (child-2)padding-t-2 (child-1)text-xl-5 (child-2)text-xl-5">\n\
+            <p class="(group-hover)hidden depth-tight-2 transition duration-300 linear (md)text-right">\n\
+              Absolute <br> Silent\n\
+            </p>\n\
+            <p class="hidden (group-hover)block text-tint-teal-1 depth-tight-2 transition duration-300 linear (md)text-right">\n\
+              Absolute <br> <span class="(group-hover)text-underline">Noisy</span>\n\
+            </p>\n\
+          </div>\n\
+          <p class="block">\n\
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus <span class="text-underline line-thickness-3 line-offset-1">sodales efficitur</span>. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
+          </p>\n\
+        </div>\n\
+        <div class="absolute top-2 -right-4">\n\
+          <div class="text-lg text-right transform (group-hover)-translate-x-6 transition duration-100 linear">\n\
+            <a href="#">\n\
+              <div class="width-4 height-4 (hover)width-6 (hover)height-6 bg-tint-onyx-1 (hover)bg-tint-teal-1 curve-border-full transition duration-200 linear"></div>\n\
+            </a>\n\
+          </div>\n\
+        </div>\n\
+        <div class="absolute bottom-0 left-2 right-2 flex flex-center">\n\
+          <div class="-margin-b-16 height-12 transform (group-hover)-translate-y-16 (expand)width-10 (expand)height-10 (expand)curve-border-full flex justify-around items-center width-full (group-hover)bg-shade-onyx-1 curve-border-full transition duration-300 ease-in-out shadow-dreamy filter brightness-2 saturate-2">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?1">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?2">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?3">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?4">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?5">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?6">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?7">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?8">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?9">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?10">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?11">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?12">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?13">\n\
+            <img class="(hover)width-16 (hover)height-16 transform (hover)-translate-y-4 object-cover object-center border-4 border-transparent (hover)border-tint-teal-1 transition duration-300 linear (hover)shadow-md" src="https://i.pravatar.cc/50?14">\n\
+          </div>\n\
+        </div>\n\
+      </div>\n\
+      <div class="absolute bottom-18 transform (group-hover)translate-y-56 transition duration-1000 ease-in-out">\n\
+        <div class="padding-y-2 font-lato text-xs text-shade-onyx-1">\n\
+          Arkworks &copy; John Doe\n\
+        </div>\n\
+        <div class="transform-perspective-500 flex flex-gap-2 cursor-pointer">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)rotate-y-39 transition duration-200 linear (hover)opacity-75 filter brightness-2 saturate-2" src="https://images.pexels.com/photos/814830/pexels-photo-814830.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/1742927/pexels-photo-1742927.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-translate-y-2 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+          <img class="width-32 height-20 object-cover object-center curve-border shadow-md transform (hover)-rotate-y-39 transition duration-200 linear (hover)opacity-75" src="https://images.pexels.com/photos/2537609/pexels-photo-2537609.jpeg?auto=compress&cs=tinysrgb&w=300">\n\
+        </div>\n\
+      </div>\n\
+      <div class="flex flex-center flex-gap-2 select-none transform (group-hover)-translate-y-24 transition duration-100 linear">\n\
+        <div class="relative width-12 height-12 text-xs bg-white curve-border-lg shadow-lg">\n\
+          <div class="absolute top-4 left-1 transform -rotate-45 text-tint-onyx-2 shadow-dreamy-lg">\n\
+            Credits\n\
+          </div>\n\
+        </div>\n\
+        <div class="text-xs text-white text-offset-shadow offset-x-2 offset-y-2 offset-blur-4">\n\
+          <div>\n\
+            Image taken from\n\
+            <a class="text-underline text-uppercase" href="https://www.pexels.com/photo/photography-of-roadway-during-dusk-1034662/" target="_blank">\n\
+              pexels \n\
+            </a>\n\
+          </div>\n\
+          <div>\n\
+            Code editor ~\n\
+            <a class="text-underline text-uppercase" href="https://microsoft.github.io/monaco-editor/" target="_blank">\n\
+              Monaco Editor\n\
+            </a>\n\
+          </div>\n\
+          <div>\n\
+            Framework written with\n\
+            <a class="text-underline text-uppercase" href="https://sass-lang.com/" target="_blank">\n\
+              Sass-Lang \n\
+            </a>\n\
+          </div>\n\
+        </div>\n\
+      </div>\n\
+    </div>\n\
   </body>',
         jsCodes: "",
         cssCodes: "",
@@ -367,9 +434,9 @@
           localStorage.dataLogoTheme = "invert-1 opacity-75 height-8 width-auto object-fit object-center overflow-hidden";
           localStorage.dataDocButtonTheme = "";
           // localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm text-tint-onyx-1 (hover)text-shade-onyx-1 bg-transparent (active)bg-tint-onyx-1 border border-tint-onyx-4 (hover)border-tint-onyx-1 (focus)border-tint-onyx-1 curve-border transition duration-300 ease-in-out";
-          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-charcoal-1";
+          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-charcoal-1 shadow-md";
           localStorage.dataButtonTheme = "invert-1 opacity-50 transform (hover)scale-125 width-5 height-5 transition duration-300 ease-in-out transform (group-hover)scale-125";
-          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 text-gray-4 (hover)text-gray-3 bg-transparent (active)bg-gray-7 curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
+          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 bg-transparent curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
           localStorage.dataMainButtonIconTheme = "invert-1 opacity-50 (group-hover)opacity-75 (group-hover)invert-1 width-6 height-6 object-fit object-center transition duration-300 ease-in-out transform (group-hover)scale-125";
           localStorage.dataBgTheme = "relative flex flex-row";
           localStorage.dataPreloaderTheme = "stack-5 absolute top-16 right-6 width-5 height-5 preloader dark animation fade-in duration-300";
@@ -378,11 +445,11 @@
         } else if (localStorage.dataTheme === "vs-dark") { // dark
           localStorage.dataTheme = "vs";
           localStorage.dataBgLogoTheme = "invert-0 height-auto width-32 object-cover object-center overflow-hidden opacity-75 select-none";
-          localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current text-gray-7 object-fit object-center overflow-hidden";
-          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white";
-          localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm text-gray-6 (hover)text-gray-8 (active)bg-gray-3 border border-gray-3 (hover)border-gray-5 curve-border transition duration-300 ease-in-out";
+          localStorage.dataLogoTheme = "invert-0 height-8 width-auto fill-current object-fit object-center overflow-hidden";
+          localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white shadow-md";
+          localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm curve-border transition duration-300 ease-in-out";
           localStorage.dataButtonTheme = "opacity-50 text-gray-2 transform (hover)scale-125 width-5 height-5 transition duration-300 ease-in-out transform (group-hover)scale-125";
-          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 text-gray-7 (group-hover)text-gray-8 bg-transparent (active)bg-gray-3 curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
+          localStorage.dataMainButtonTheme = "(group) flex justify-center items-center padding-x-2 padding-y-1 bg-transparent curve-border transition duration-300 ease-in-out animation roll-in-left duration-800 cursor-pointer select-none";
           localStorage.dataMainButtonIconTheme = "invert-0 opacity-50 (group-hover)opacity-75 (group-hover)invert-0 width-6 height-6 object-fit object-center transition duration-300 ease-in-out transform (group-hover)scale-125";
           localStorage.dataBgTheme = "relative flex flex-row";
           localStorage.dataPreloaderTheme = "stack-5 absolute top-16 right-6 width-5 height-5 preloader dark animation fade-in duration-300";
