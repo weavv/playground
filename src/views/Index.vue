@@ -195,7 +195,7 @@
         Welcome to WEAVV CSS Demo\n\
       </div>\n\
       <div class="absolute top-20 transform (group-hover)-translate-y-32 transition duration-100 linear flex justify-center items-center">\n\
-        <img class="width-32 height-32 object-cover object-center curve-border-full filter brightness-4 saturate-2" src="https://i.pravatar.cc/400?15">\n\
+        <img class="width-32 height-32 object-cover object-center curve-border-full filter brightness-4 saturate-2" src="https://i.pravatar.cc/250?15">\n\
         <a class="padding-x-4 text-xl-2 text-white font-bold (hover)text-underline" href="#">\n\
           John Doe\n\
         </a>\n\
@@ -215,10 +215,10 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id magna in purus <span class="text-underline line-thickness-3 line-offset-1">sodales efficitur</span>. Maecenas consequat sem magna, mollis pulvinar ante tincidunt quis.\n\
           </p>\n\
         </div>\n\
-        <div class="absolute top-2 right-0">\n\
-          <div class="text-lg text-right -margin-r-6 transform (group-hover)-translate-x-8 transition duration-100 linear">\n\
-            <a class="(hover)opacity-50" href="#">\n\
-              <img class="width-6 height-6 (hover)width-10 (hover)height-10 transition duration-300 linear" src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128313.png?token=exp=1658149910~hmac=030bb9ab4c078b031821d378d718d8c3">\n\
+        <div class="absolute top-2 -right-4">\n\
+          <div class="text-lg text-right transform (group-hover)-translate-x-6 transition duration-100 linear">\n\
+            <a href="#">\n\
+              <div class="width-4 height-4 (hover)width-6 (hover)height-6 bg-tint-onyx-1 (hover)bg-tint-teal-1 curve-border-full transition duration-200 linear"></div>\n\
             </a>\n\
           </div>\n\
         </div>\n\
@@ -445,7 +445,7 @@
         } else if (localStorage.dataTheme === "vs-dark") { // dark
           localStorage.dataTheme = "vs";
           localStorage.dataBgLogoTheme = "invert-0 height-auto width-32 object-cover object-center overflow-hidden opacity-75 select-none";
-          localStorage.dataLogoTheme = "invert-0 opacity-75 height-8 width-auto fill-current object-fit object-center overflow-hidden";
+          localStorage.dataLogoTheme = "invert-0 height-8 width-auto fill-current object-fit object-center overflow-hidden";
           localStorage.dataMenuBarTheme = "padding-1 absolute bottom-0 left-0 height-20 width-full bg-white shadow-md";
           localStorage.dataDocButtonTheme = "flex justify-center items-center padding-x-2 height-6 text-sm curve-border transition duration-300 ease-in-out";
           localStorage.dataButtonTheme = "opacity-50 text-gray-2 transform (hover)scale-125 width-5 height-5 transition duration-300 ease-in-out transform (group-hover)scale-125";
