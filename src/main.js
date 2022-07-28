@@ -3,7 +3,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import 'weavv-css/dist/weavv-1.1.8.min.css';
+import 'weavv-css/dist/weavv-1.2.0.min.css';
 
 Vue.config.productionTip = false;
 
