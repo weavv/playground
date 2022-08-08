@@ -335,7 +335,6 @@
     mounted() {
       this.shortcutKeysEvents();
       this.renderCode();
-
       windowResizer();
     },
     beforeDestroy() {
@@ -344,12 +343,9 @@
     methods: {
       runCode() {
         this.workingStatus = true;
-
-        let t = '<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><style>' + this.loadCssCodes + '</style><link once href="https://unpkg.com/weavv-css@1.1.8/dist/weavv-1.1.8.min.css" rel="stylesheet" rel="preload" as="style" media="all" defer></head><body>' + this.loadHtmlCodes + '</body><script>' + this.loadJsCodes + "<\\/script></html>";
-
+        let t = '<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><style>' + this.loadCssCodes + '</style><link once href="https://unpkg.com/weavvcss@1.0.0/dist/weavv-1.0.0.min.css" rel="stylesheet" rel="preload" as="style" media="all" defer></head><body>' + this.loadHtmlCodes + '</body><script>' + this.loadJsCodes + "<\\/script></html>";
         let result = document.getElementById("result");
         result.innerHTML = "";
-
         let iframe = document.createElement("iframe");
         iframe.name = "result";
         iframe.id = "resultIframe";
@@ -358,7 +354,6 @@
         iframe.style.width = "100%";
         iframe.style.height = "100%";
         result.append(iframe);
-
         let r = document.getElementById("resultIframe");
         r.contentDocument.write(t), r.contentDocument.close();
       },
@@ -427,7 +422,7 @@
         setTimeout(() => { this.workingStatus = false; }, 1500);
       },
       changeEditorTheme: function() {
-        if (localStorage.dataTheme === "vs") { // light
+        if (localStorage.dataTheme === "vs") { // two
           localStorage.dataTheme = "vs-dark";
           localStorage.dataBgLogoTheme = "";
           // localStorage.dataBgLogoTheme = "invert-1 height-auto width-32 object-cover object-center overflow-hidden opacity-75 select-none";
@@ -442,7 +437,7 @@
           localStorage.dataPreloaderTheme = "stack-5 absolute top-16 right-6 width-5 height-5 preloader dark animation fade-in duration-300";
           // TODO: if `light`, then reload is `dark`
           window.location.reload();
-        } else if (localStorage.dataTheme === "vs-dark") { // dark
+        } else if (localStorage.dataTheme === "vs-dark") { // one
           localStorage.dataTheme = "vs";
           localStorage.dataBgLogoTheme = "invert-0 height-auto width-32 object-cover object-center overflow-hidden opacity-75 select-none";
           localStorage.dataLogoTheme = "invert-0 height-8 width-auto fill-current object-fit object-center overflow-hidden";

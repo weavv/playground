@@ -28,7 +28,7 @@ createWindow = () => {
   nativeTheme.themeSource = 'light'; // set default theme
 
   win = new BrowserWindow({
-    title: 'Shardust Playground',
+    title: 'Weavv CSS Playground',
     icon: path.join(__dirname, 'assets/favicon.png'),
     backgroundColor: '#262626',
     width: 1280,
