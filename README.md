@@ -1,4 +1,4 @@
-![weavv playground logo](https://github.com/weavv/playground/blob/main/assests/playground.svg?raw=true)
+![weavv playground logo](https://github.com/weavv/playground/blob/main/assets/playground.svg?raw=true)
 
 ### A developer playground for testing and prototyping UI with WEAVV CSS framework.
 
