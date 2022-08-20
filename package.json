@@ -2,7 +2,7 @@
   "name": "weavv-playground",
   "windowtitle": "WEAVV CSS Playground",
   "description": "A developer playground IDE for testing and prototyping UI with WEAVV CSS framework.",
-  "author": "Louis Low (iamlouislow@gmail.com)",
+  "author": "Louis Low <iamlouislow@gmail.com> (https://weavvcss.netlify.app)",
   "license": "MIT",
   "version": "1.0.0",
   "private": true,
