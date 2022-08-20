@@ -19,7 +19,7 @@
   (?) Shift+Alt+LeftClick for multi-selection\n\
   (?) Ctrl+Alt+/ to run code\n\
 --> \n\n\
-  <body class="font-poppins antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
+  <body class="font-default antialised height-full bg-tint-onyx-4 flex flex-column flex-center">\n\
     <div class="(group) relative flex flex-column flex-center">\n\
       <div class="text-lg text-white text-offset-shadow-- offset-x-2 offset-y-2 offset-blur-4 transform (group-hover)translate-y-16 transition duration-300 linear">\n\
         Welcome to WEAVV CSS Demo\n\

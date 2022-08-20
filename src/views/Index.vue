@@ -343,7 +343,7 @@
     methods: {
       runCode() {
         this.workingStatus = true;
-        let t = '<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><style>' + this.loadCssCodes + '</style><link once href="https://unpkg.com/weavvcss@1.0.0/dist/weavv-1.0.0.min.css" rel="stylesheet" rel="preload" as="style" media="all" defer></head><body>' + this.loadHtmlCodes + '</body><script>' + this.loadJsCodes + "<\\/script></html>";
+        let t = '<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><style>' + this.loadCssCodes + '</style><link once href="https://unpkg.com/weavvcss@1.0.2/dist/weavv-1.0.2.min.css" rel="stylesheet" rel="preload" as="style" media="all" defer></head><body>' + this.loadHtmlCodes + '</body><script>' + this.loadJsCodes + "<\\/script></html>";
         let result = document.getElementById("result");
         result.innerHTML = "";
         let iframe = document.createElement("iframe");
