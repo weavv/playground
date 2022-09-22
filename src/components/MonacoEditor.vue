@@ -76,12 +76,12 @@ onMounted(() => {
     lineNumbers: 'on',
     lineNumbersMinChars: 2,
     minimap: {
-      enabled: false
+      enabled: false,
     },
     quickSuggestions: {
       other: true,
       comments: true,
-      strings: true
+      strings: true,
     },
     quickSuggestionsDelay: 500,
     readOnly: false,
