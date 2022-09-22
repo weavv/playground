@@ -1,54 +1,30 @@
-![weavv playground logo](https://github.com/weavv/playground/blob/main/assets/playground.svg?raw=true)
+<p align="center">
+  <img src="https://weavvcss.netlify.app/playground/logo.svg" width="auto" height="250"/>
+</p>
 
-### A developer playground for testing and prototyping UI with WEAVV CSS framework.
+A developer playground for testing and prototyping UI with WEAVV CSS framework.
 
-> Version 1.0.0
+> Version 2.0.0
 
-### **Shortcut Keys**
+# Shortcut Keys
 
 - `F1` for Command Palette.
 - `Right-Click` for more options.
-- `Ctrl+Alt+M` to switch windows.
-- `Ctrl+Alt+/` to run code.
-- `Ctrl+Alt+D` to reset auto-saved data.
 
-## _live
+# Live
 
-Visit the online version at [https://weavvcss.netlify.app/playground](https://weavvcss.netlify.app/playground).
+Launch [**Playground**](https://weavvcss.netlify.app/playground).
 
-## _appimage
+![image](https://weavvcss.netlify.app/playground/screenshot.png)
 
-Build a native desktop app yourself for your compatible platform.
+# Build
 
 ```bash
-# NPM
-$ npm run build:native:{all|linux|windows|mac}
-# YARN
-$ yarn build:native:{all|linux|windows|mac}
-```
-
-## _build
-
-Build and run the app locally on a web browser.
-
-```bash
-# NPM
-$ npm run build:app
-# YARN
-$ yarn build:app
-```
-
-## _dev
-
-```bash
-# NPM
-$ npm run serve
-# YARN
-$ yarn serve
+# set node memory size
+$ export NODE_OPTIONS="--max-old-space-size=8192"
+$ npm run build
 ```
 
 ---
 
-[MIT](https://github.com/weavv/playground/blob/master/LICENSE)
-
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
