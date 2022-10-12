@@ -65,10 +65,10 @@ onMounted(() => {
     height: 100vh;
   }
   .fix-editor-container {
-    height: 85.9vh !important;
+    height: calc(100% - 102px) !important;
   }
   .fix-preview-container {
-    height: 91vh !important;
+    height: calc(100% - 61px) !important;
   }
   .gutter {
     background-color: #b4b4b445;
